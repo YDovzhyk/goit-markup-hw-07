@@ -1,0 +1,41 @@
+.fifth-section .section-title {
+    display: block;
+    min-width: 376px;
+    height: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.166;
+    margin-bottom: 50px;
+}
+.card-client {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    transition: border-color 250ms cubic-bezier(0.4,
+                0,
+                0.2,
+                1);
+    &:hover, &:focus {
+        border-color: var(--bg-botton-color);
+        .card-icon-decor,
+        .card-icon-decor {
+    fill: var(--bg-botton-color);
+}
+    }
+}
+.card-icon-decor {
+    fill: var(--icon-color);
+
+    transition: fill 250ms cubic-bezier(0.4,
+                0,
+                0.2,
+                1);
+}
