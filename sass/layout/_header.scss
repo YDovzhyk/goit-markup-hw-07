@@ -29,6 +29,9 @@
     &.current-page-color {
         color: var(--text-additional-color);
     }
+    &:hover, &:focus {
+        color: var(--text-hover-color);
+    }
 }
 .site-nav__link.underscore {
     position: relative;

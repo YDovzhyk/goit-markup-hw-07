@@ -12,6 +12,7 @@
   --bg-botton-color: #2196f3;
   --botton-hover-color: #188CE8;
   --icon-color: #afb1b8;
+  --text-hover-color: #2196f3;
   --main-font: "Roboto";
   --additional-font: 'Raleway';
 }
@@ -131,6 +132,10 @@
 
 .site-nav__link.current-page-color {
   color: var(--text-additional-color);
+}
+
+.site-nav__link:hover, .site-nav__link:focus {
+  color: var(--text-hover-color);
 }
 
 .site-nav__link.underscore {
@@ -317,7 +322,6 @@
 
 .our-sotial {
   display: flex;
-  justify-content: space-between;
 }
 
 .our-sotial__list {
@@ -326,6 +330,7 @@
   align-items: center;
   width: 44px;
   height: 44px;
+  margin-right: 10px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -503,9 +508,14 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 12px 16px;
   outline: none;
   resize: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -884,7 +894,6 @@
 
 .our-sotial {
   display: flex;
-  justify-content: space-between;
 }
 
 .our-sotial__list {
@@ -893,6 +902,7 @@
   align-items: center;
   width: 44px;
   height: 44px;
+  margin-right: 10px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1070,9 +1080,14 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 12px 16px;
   outline: none;
   resize: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1230,7 +1245,7 @@
   top: 0%;
   left: 0%;
   width: 370px;
-  height: 294px;
+  height: 295px;
   background: rgba(33, 150, 243, 0.9);
   overflow: auto;
   transform: translateY(100%);
@@ -1250,9 +1265,10 @@
   margin-bottom: 4px;
   padding-left: 24px;
   padding-right: 24px;
+  max-width: 370px;
   font-size: 18px;
   line-height: 2.00;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   color: var(--text-main-color);
 }
 
