@@ -145,7 +145,7 @@
 .modal-comment-box:focus {
     font-size: 14px;
     line-height: 1.177;
-    color: rgba (75, 75, 75, 0.5);
+    color: rgba(75, 75, 75, 0.5);
 }
 
 .modal-input:hover,
@@ -227,3 +227,22 @@
         background: #188CE8;
     }
 }
+/*
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: red;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: red;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: red;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: red;
+}
+*/
+
